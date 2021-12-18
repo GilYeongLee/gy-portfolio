@@ -66,7 +66,7 @@ overflow: hidden; border:0;
 section#profile .profile_main .p_left .img:after{content: '';
 display: block; width: 400px;
 height: 400px; border-radius: 50%; 
-background: url('../images/me.png')no-repeat 0px 10px; 
+background: url('../images/me.png')no-repeat 10px -30px; 
 background-size: 400px; position: absolute; 
 bottom: -10px; left: 0px;  }
 
@@ -153,7 +153,7 @@ section#portfolio .portfolio_main dl dt{
 /* pf_01 */
 .portfolio_main dl:nth-child(1){position: relative;}
 .portfolio_main dl:nth-child(1) dt{
-    background: url("../images/pf/pf1.png")no-repeat 120px 120px;
+    background: url("../images/pf/hanwha.png")no-repeat 120px 120px;
     background-size: 85%;
 }
 .portfolio_main dl:nth-child(1) dd{position: absolute; top: 100px;
@@ -176,7 +176,7 @@ letter-spacing: 5px; border:1px solid #444;
 
 .portfolio_main dl:nth-child(2){position: relative;}
 .portfolio_main dl:nth-child(2) dt{
-    background: url('../images/pf/pf2.png') no-repeat 0 150px; 
+    background: url('../images/pf/ever.png') no-repeat 0 150px; 
 background-size: 85%; float: right;}
 
 .portfolio_main dl:nth-child(2) dd{position: absolute; top: 100px; 
@@ -202,7 +202,7 @@ letter-spacing: 5px; border:1px solid #444; float: right;
 /* pf-03 */
 
 #wrap section#portfolio .portfolio_main dl:nth-child(3){position: relative;clear: both;}
-#wrap section#portfolio .portfolio_main dl:nth-child(3) dt{background: url("../images/pf/pf3.png") no-repeat 120px 160px; background-size: 80%;}
+#wrap section#portfolio .portfolio_main dl:nth-child(3) dt{background: url("../images/pf/line.png") no-repeat 120px 160px; background-size: 80%;}
 #wrap section#portfolio .portfolio_main dl:nth-child(3) dd{position: absolute; top: 100px; right: 100px;width: 450px; margin-top: 50px; margin-left: 50px;}
 #wrap section#portfolio .portfolio_main dl:nth-child(3) dd h4{font-size: 15px; margin-bottom: 10px;}
 #wrap section#portfolio .portfolio_main dl:nth-child(3) dd h5{font-size: 50px; margin-bottom: 10px; font-weight: 100;}
@@ -211,7 +211,7 @@ letter-spacing: 5px; border:1px solid #444; float: right;
 #wrap section#portfolio .portfolio_main dl:nth-child(3) dd p.site_btn a:hover{border: 1px solid blue; color: blue;}
 /* pf-04 */
 #wrap section#portfolio .portfolio_main dl:nth-child(4){position: relative;}
-#wrap section#portfolio .portfolio_main dl:nth-child(4) dt{background: url("../images/pf/pf4.png") no-repeat 0 190px; background-size: 75%; float: right;}
+#wrap section#portfolio .portfolio_main dl:nth-child(4) dt{background: url("../images/pf/wix.png") no-repeat 0 190px; background-size: 75%; float: right;}
 #wrap section#portfolio .portfolio_main dl:nth-child(4) dd{position: absolute; top: 100px; left: 100px;width: 450px; margin-top: 50px; margin-left: 50px; text-align: right;}
 #wrap section#portfolio .portfolio_main dl:nth-child(4) dd h4{font-size: 15px; margin-bottom: 10px;}
 #wrap section#portfolio .portfolio_main dl:nth-child(4) dd h5{font-size: 50px; margin-bottom: 10px; font-weight: 100;} 
@@ -220,7 +220,7 @@ letter-spacing: 5px; border:1px solid #444; float: right;
 #wrap section#portfolio .portfolio_main dl:nth-child(4) dd p.site_btn a:hover{border: 1px solid blue; color: blue;}
 /* pf-05 */
 #wrap section#portfolio .portfolio_main dl:nth-child(5){position: relative;clear: both;}
-#wrap section#portfolio .portfolio_main dl:nth-child(5) dt{background: url("../images/pf/pf5.png") no-repeat center 100px; background-size: 95%;}
+#wrap section#portfolio .portfolio_main dl:nth-child(5) dt{background: url("../images/pf/app.png") no-repeat center 100px; background-size: 95%;}
 #wrap section#portfolio .portfolio_main dl:nth-child(5) dd{position: absolute; top: 100px; right: 100px;width: 450px; margin-top: 50px; margin-left: 50px;}
 #wrap section#portfolio .portfolio_main dl:nth-child(5) dd h4{font-size: 15px; margin-bottom: 10px;}
 #wrap section#portfolio .portfolio_main dl:nth-child(5) dd h5{font-size: 50px; margin-bottom: 10px; font-weight: 100;}
@@ -229,22 +229,14 @@ letter-spacing: 5px; border:1px solid #444; float: right;
 #wrap section#portfolio .portfolio_main dl:nth-child(5) dd p.site_btn a:hover{border: 1px solid blue; color: blue;}
 /* pf-06 */
 #wrap section#portfolio .portfolio_main dl:nth-child(6){position: relative;}
-#wrap section#portfolio .portfolio_main dl:nth-child(6) dt{background: url("../images/pf/pf6.png") no-repeat center 190px; background-size: 95%; float: right;}
+#wrap section#portfolio .portfolio_main dl:nth-child(6) dt{background: url("../images/pf/ani.png") no-repeat center 190px; background-size: 95%; float: right;}
 #wrap section#portfolio .portfolio_main dl:nth-child(6) dd{position: absolute; top: 100px; left: 100px;width: 450px; margin-top: 50px; margin-left: 50px; text-align: right;}
 #wrap section#portfolio .portfolio_main dl:nth-child(6) dd h4{font-size: 15px; margin-bottom: 10px;}
 #wrap section#portfolio .portfolio_main dl:nth-child(6) dd h5{font-size: 50px; margin-bottom: 10px; font-weight: 100;}
 #wrap section#portfolio .portfolio_main dl:nth-child(6) dd p{font-size: 15px; line-height: 1.7;}
 #wrap section#portfolio .portfolio_main dl:nth-child(6) dd p.site_btn a{display: block; width: 100px; padding: 10px 70px; margin-top: 30px; text-align: center; color: #000; transition: .5s; letter-spacing: 5px; border: 1px solid #444;float: right;}
 #wrap section#portfolio .portfolio_main dl:nth-child(6) dd p.site_btn a:hover{border: 1px solid blue; color: blue;}
-/* pf-07 */
-#wrap section#portfolio .portfolio_main dl:nth-child(7){position: relative;clear: both;}
-#wrap section#portfolio .portfolio_main dl:nth-child(7) dt{background: url("../images/pf/pf7.png") no-repeat center 160px; background-size: 85%;}
-#wrap section#portfolio .portfolio_main dl:nth-child(7) dd{position: absolute; top: 100px; right: 100px;width: 450px; margin-top: 50px; margin-left: 50px;}
-#wrap section#portfolio .portfolio_main dl:nth-child(7) dd h4{font-size: 15px; margin-bottom: 10px;}
-#wrap section#portfolio .portfolio_main dl:nth-child(7) dd h5{font-size: 50px; margin-bottom: 10px; font-weight: 100;}
-#wrap section#portfolio .portfolio_main dl:nth-child(7) dd p{font-size: 15px; line-height: 1.7;}
-#wrap section#portfolio .portfolio_main dl:nth-child(7) dd p.site_btn a{display: block; width: 100px; padding: 10px 70px; margin-top: 30px; text-align: center; color: #000; transition: .5s; letter-spacing: 5px; border: 1px solid #444;}
-#wrap section#portfolio .portfolio_main dl:nth-child(7) dd p.site_btn a:hover{border: 1px solid blue; color: blue;}
+
 
 
 
@@ -263,14 +255,15 @@ section#etc .etc_main dl dt p:before{content: ''; position: absolute; top: 0;lef
 section#etc .etc_main dl:hover dt p:before{width: 100%; }
 /* 자세히보기 */
 section#etc .etc_main dl dt p strong{position: absolute; top: 50%; 
-    left: 50%; transform: translate(-50%, -50%); padding: 5px 10px; color: blue; border: 2px solid blue; border-radius: 50px; transition: .6s; z-index: 9999; opacity: 0;}
+    left: 50%; transform: translate(-50%, -50%); padding: 5px 10px; color: blue; border: 2px solid blue; 
+    border-radius: 50px; transition: .6s; z-index: 9999; opacity: 0;}
 section#etc .etc_main dl:hover dt p strong{opacity: 1; }
 
-section#etc .etc_main dl.etc_1 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/emo/thum.png') no-repeat center; background-size: cover; }
-section#etc .etc_main dl.etc_2 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/app/thum.png') no-repeat -40px 35px; background-size: 120%; }
-section#etc .etc_main dl.etc_3 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/ppt/ppt1.gif') no-repeat center; background-size: 100%; }
-section#etc .etc_main dl.etc_4 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/drawing/d1.jpg') no-repeat center; background-size: cover; }
-section#etc .etc_main dl.etc_5 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/brand/logo1.jpg') no-repeat -200px 0; background-size: 200%; }
+section#etc .etc_main dl.etc_1 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/emo/thum.png') no-repeat center; background-size: 100%; }
+section#etc .etc_main dl.etc_2 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/app/thum.png') no-repeat center; background-size: 100%; }
+section#etc .etc_main dl.etc_3 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/ppt/character_img09.png') no-repeat center; background-size: 100%; }
+section#etc .etc_main dl.etc_4 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/drawing/animation.PNG') no-repeat center; background-size: cover; }
+section#etc .etc_main dl.etc_5 dt i{position: absolute; top: 0;left: 0; width: 100%; height: 100%; background: url('../images/brand/thum.png') no-repeat 0px 0; background-size: 100%; }
 section#etc .etc_main dl.etc_3 dt{background: rgb(39, 39, 39);}
 section#etc .etc_main dl dd{padding: 20px 0; font-size: 14px; line-height: 1.7; text-align: right;}
 section#etc .etc_main dl dd span{font-weight: normal;}
@@ -307,16 +300,16 @@ section#etc .etc_main dl dd span{font-weight: normal;}
 #popup1 button{width: 100px; height: 100px; font-size: 70px; font-weight: 100; padding-bottom: 10px; outline: 0; border: 0;   background: #333; color: #fff; opacity: 0.3; cursor: pointer; font-family: 'RalewayT'; z-index: 999999;}
 #popup1 button.prev{position: absolute; top: 40%; left: 0;}
 #popup1 button.next{position: absolute; top: 40%; right: 0;}
-#popup1 ul.popList{width: 2400px; height: 738px;}
-#popup1 ul.popList li.popImg{width: 800px; height: 638px;}
+#popup1 ul.popList{width: 2400px; height: 600px;}
+#popup1 ul.popList li.popImg{width: 800px; height: 600px; margin-top: -30px;}
 /* popup2 */
 #popup2{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 800px; height: 538px; overflow: hidden; z-index: 999999; display: none;}
 #popup2 button{width: 100px; height: 100px; font-size: 70px; font-weight: 100; padding-bottom: 10px; outline: 0; border: 0;   background: #333; color: #fff; opacity: 0.3; cursor: pointer; font-family: 'RalewayT'; z-index: 999999;}
 #popup2 button.prev{position: absolute; top: 40%; left: 0;}
 #popup2 button.next{position: absolute; top: 40%; right: 0;}
-#popup2 ul.popList{width: 2400px; height: 738px;}
-#popup2 ul.popList li.popImg{width: 800px; height: 638px;}
-#popup2 ul.popList li.popImg img{width: 1000px; margin-left: -100px; margin-top: -50px;}
+#popup2 ul.popList{width: 2400px; height: 600px;}
+#popup2 ul.popList li.popImg{width: 800px; height: 600px;}
+#popup2 ul.popList li.popImg img{width: 800px; margin-left: 0px; margin-top: 0px;}
 /* popup3 */
 #popup3{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 800px; height: 538px; overflow: hidden; z-index: 999999; display: none;}
 #popup3 button{width: 100px; height: 100px; font-size: 70px; font-weight: 100; padding-bottom: 10px; outline: 0; border: 0;   background: #333; color: #fff; opacity: 0.3; cursor: pointer; font-family: 'RalewayT'; z-index: 999999;}
@@ -324,7 +317,7 @@ section#etc .etc_main dl dd span{font-weight: normal;}
 #popup3 button.next{position: absolute; top: 40%; right: 0;}
 #popup3 ul.popList{width: 2400px; height: 738px;}
 #popup3 ul.popList li.popImg{width: 800px; height: 638px;}
-#popup3 ul.popList li.popImg video{width: 800px; margin-top: 45px;}
+#popup3 ul.popList li.popImg img{width: 800px; margin-top: 0px;}
 /* popup4 */
 #popup4{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 800px; height: 538px; overflow: hidden; z-index: 999999; display: none;}
 #popup4 button{width: 100px; height: 100px; font-size: 70px; font-weight: 100; padding-bottom: 10px; outline: 0; border: 0;   background: #333; color: #fff; opacity: 0.3; cursor: pointer; font-family: 'RalewayT'; z-index: 999999;}
